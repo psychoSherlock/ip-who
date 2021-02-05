@@ -1,10 +1,6 @@
 #This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
-#without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#See the GNU General Public License for more details.
+#without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE..
 
-#You should have received a copy of the GNU General Public License along with this program;
-#if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
-# 
 # Warning!!! The tool currently uses free version of ip-api.This endpoint is  
 # limited to 45 requests per minute from an IP address. If you go over the 
 # limit your requests will be throttled (HTTP 429) until your rate 
