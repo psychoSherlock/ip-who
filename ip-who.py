@@ -1,16 +1,7 @@
-#This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
-#without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE..
-
-# Warning!!! The tool currently uses free version of ip-api.This endpoint is  
-# limited to 45 requests per minute from an IP address. If you go over the 
-# limit your requests will be throttled (HTTP 429) until your rate 
-# limit window is reset. If you constantly go over the limit,
-# your IP address will be banned for 1 hour. 
-# 
-# Read more from: https://ip-api.com/docs/api:json
-#
-#Enjoy :D 
-#
+#The code isn't completed yet.
+#If it is really urgent, then I would clone this repo,
+#Or else, please don't. Because I may develop new UI and designs.
+# So please wait...
 import requests
 import os
 from time import sleep, gmtime, strftime
@@ -40,7 +31,7 @@ print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT +  """
 /___/_/       |__/|__/_//_/\____/ (_)  
                                                                                 
 """+ Fore.RED + Style.BRIGHT + "\nAuthor: " + Fore.GREEN + Style.BRIGHT +  "@psychoSherlock")
-
+print("The code isn't complete yet. Please check for updates for new version which is much cooler and easy to use")
 #Getting Ip
 
 ip = input("\n[?] Ip or Domain of Target: ")
