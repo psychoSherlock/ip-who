@@ -21,7 +21,7 @@ python3 ip-who.py
 * **Detect reverse proxy or if the target is a hosting provider or using a mobile connection**
 * Anonymous requests! NO LOGS done 🕵️‍♂️
 
-![Image of Yaktocat](https://www.github.com/psychosherlock/ip-who/images/screenshot1.png)
+![Screenshot of IP-WHO](https://github.com/psychoSherlock/ip-who/blob/master/images/screenshot1.png)
 
 ### PRO VERSION 😲
 This repository is currently the free version of IP-WHO. However, The pro-version includes much more usefull and extensive features such as:
