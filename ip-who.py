@@ -1,7 +1,14 @@
-#The code isn't completed yet.
-#If it is really urgent, then I would clone this repo,
-#Or else, please don't. Because I may develop new UI and designs.
-# So please wait...
+# This is the free version of ip-who.
+# It includes very limited features and
+# will only work for 45 requests/min.
+
+# Pro version features:
+# cli-argument support increasing speed and stability of the program. Free version is interactive but only 1 req per session
+# Search for ip/domains from a file. Will result in faster response and speed in collecting data.
+# Include port scan without nmap. This will help you scan for open ports in target without using nmap and return the results in beautiful UI
+# Includes shodan search. This will help in banner grabbing and also find osint info
+# Find OSINT info using google dorking. Read more at https://github.com/psychoSherlock/ip-who
+# And much more. To use ip-who pro, contact the author on twitter: www.twitter.com/psycho_sherlock
 import requests
 import os
 from time import sleep, gmtime, strftime
@@ -31,7 +38,7 @@ print(Fore.LIGHTMAGENTA_EX + Style.BRIGHT +  """
 /___/_/       |__/|__/_//_/\____/ (_)  
                                                                                 
 """+ Fore.RED + Style.BRIGHT + "\nAuthor: " + Fore.GREEN + Style.BRIGHT +  "@psychoSherlock")
-print("The code isn't complete yet. Please check for updates for new version which is much cooler and easy to use")
+print(Fore.RED + Style.BRIGHT + "You are using the free version of IP-WHO.\nThe pro version is much cooler and easy to use. \nIt also includes features like "+ Fore.YELLOW + Style.BRIGHT + "Port Scan, Banner Grabbing with Shodan, OSINT, and Google Dorking (more info on https://github.com/psychoSherlock/ip-who)." + Fore.RED + Style.BRIGHT + "\nBuy it now before the limited offer expires by contacting" +Fore.GREEN+ Style.BRIGHT + " @psycho_sherlock" + Fore.RED + Style.BRIGHT +" on twitter")
 #Getting Ip
 
 ip = input("\n[?] Ip or Domain of Target: ")
