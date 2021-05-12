@@ -34,7 +34,7 @@ This repository is currently the free version of IP-WHO. However, The pro-versio
 * Scan IP/Domain from a file, making your work faster and easier ✔️
 * More than 45 requests per minute 🤙
 
-#### 👉 Contact [psychoSherlock](www.twitter.com/psycho_sherlock) on twitter for the PRO version **before the offer ends!**
+#### 👉 Contact [psychoSherlock](https://www.twitter.com/psycho_sherlock) on twitter for the PRO version **before the offer ends!**
 
 ## Thanks to [IP-API](https://ip-api.com/) for providing the api. 🙏
 ## License
